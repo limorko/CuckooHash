@@ -7,7 +7,7 @@ This Data Structure is very convenient because
 - Deletions are worst-case O(1)
 - Insertions are amortized, expected O(1)
   
-# Features 
+# Methods 
 This class contains:
 - insertion method 
 - deletion method
