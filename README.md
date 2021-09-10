@@ -1,5 +1,5 @@
 # What
-A Cuckoo Hash is a variation of the classic Hash Table data structure. The Cuckoo Hash uses multiple hash functions to keep track of where data is inserted. Each piece of information to be stored has a name, which is called a key and is connected to another piece of information called data. The data is kept in another data structure called an array ('list' in Python), which is a series of buckets that hold data, numbered from 0 and counting up.
+A Cuckoo Hash is a variation of the classic Hash Table data structure. The Cuckoo Hash uses multiple hash functions to keep track of where data is inserted. Each piece of information to be stored has a name, which is called a key and is connected to another piece of information called data. The data is kept in another data structure called an array ('list' in Python), which is a series of buckets that hold data, numbered from 0 and counting up. In this specific implementation of a Cuckoo Hash, the information stored in the data structure is in the form of a tuple: key and data. 
 
 # Why
 This Data Structure is very convenient because 
