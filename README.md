@@ -35,4 +35,9 @@ The program already contains a large amount of thorough pytests that test each m
     # remove 10 key/data pairs from the cuckooHash
     for i in range(10): 
         ch.remove("Foo" + str(i))
+        
+# Finding 
+    # find the 10 key/data pairs in the cuckooHash
+    for i in range(10): 
+        ch.find("Foo" + str(i))
     
