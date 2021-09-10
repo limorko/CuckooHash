@@ -16,3 +16,17 @@ This class contains:
 
 The program already contains a large amount of thorough pytests that test each method in the class. 
 
+# Inserting 
+ch = CuckooHash(1)
+#insert 10 key/data pairs in the cuckooHash
+for i in range(10): 
+    # generate a random word as the key
+    r = RandomWord()
+    key = r.generate()
+        
+    # generate a random int as the data 
+    data = random.randint(0, 100)
+        
+    # insert the keyData pair in the cuckooHash 
+    ch.insert(key, data)
+    
