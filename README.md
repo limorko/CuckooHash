@@ -23,14 +23,16 @@ The program already contains a large amount of thorough pytests that test each m
 
     # insert 10 key/data pairs in the cuckooHash
     for i in range(10): 
-
-        # generate a random word as the key
-        r = RandomWord()
-        key = r.generate()
-        
-        # generate a random int as the data 
-        data = random.randint(0, 100)
+        # insert Foo + i, i
+        key = "Foo" + str(i)
+        data = i
         
         # insert the keyData pair in the cuckooHash 
         ch.insert(key, data)
+        
+# Removing
+
+    # remove 10 key/data pairs from the cuckooHash
+    for i in range(10): 
+        ch.remove("Foo" + str(i))
     
